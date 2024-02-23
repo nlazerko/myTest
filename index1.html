@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fcfe014eea.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!------------ header ------------->
+      <header class="header">
+        <div class="container header_container">
+          <div class="header__logo">
+            <a href="#"> businessgrowth.<span>net</span></a>
+          </div>
+          <input type="checkbox" name="menu" id="menu" />
+          <label for="menu"><i class="fa-solid fa-bars"></i></label>
+          <nav class="header__nav">
+            <a href="#">Бизнес</a>
+            <a href="#">О нас</a>
+            <a href="#">Цены</a>
+            <a href="#">Оформить заказ</a>
+          </nav>
+        </div>
+      </header>
+      <!------------ header ------------->
+
+      <!------------main----------------выпадающий список!!!!! + кнопка ФАЙЛЫ-->
+      <main>
+        <section class="section promo_section">
+          <div class="container main_container">
+            <h2 class="section__title">
+              TOGETHER TO THE
+              <span>HEIGHTS OF SUCCESS<br />YOUR BUSINESS</span>OUR DEVELOPMENT!
+            </h2>
+            <ul class="promo_list">
+              <span
+                >Мы не просто строим компании, мы вдыхаем в них жизнь. С нашей
+                командой вы обретете:</span
+              >
+              <li>- стратегическое преимущество</li>
+              <li>
+                - раскроете потенциал и подниметесь на новый уровень успеха
+              </li>
+              <li>
+                - вместе мы создадим будущее, полное процветания и достижений
+              </li>
+            </ul>
+            <div class="btns">
+              <button class="section__button">Заказать</button>
+              <button class="section__button">Подробнее</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="section order_section">
+          <div class="container main_container">
+            <h2 class="section__title order_title">
+              <span>Оформление</span> заказа
+            </h2>
+            <p class="order__text">
+              Перед заполнением формы ознакомьтесь с нашей схемой работы!
+            </p>
+            <div class="order__logos">
+              <a href="#"
+                ><img src="assets/logo1.svg" alt="" />find a solution</a
+              >
+              <img class="order_dots" src="assets/dots.svg" alt="" />
+              <a href="#"><img src="assets/logo2.svg" alt="" />interest rate</a>
+              <img class="order_dots" src="assets/dots.svg" alt="" />
+              <a href="#"
+                ><img src="assets/logo3.svg" alt="" />prepare documents</a
+              >
+              <img class="order_dots" src="assets/dots.svg" alt="" />
+              <a href="#"><img src="assets/logo4.svg" alt="" />business mail</a>
+              <img class="order_dots" src="assets/dots.svg" alt="" />
+              <a href="#"><img src="assets/logo5.svg" alt="" />net profit</a>
+            </div>
+            <form class="section__form">
+              <div class="form__row first_row">
+                <button class="form__input drop_btn">
+                  выберите тип системы
+                  <i class="fa-sharp fa-solid fa-chevron-down"></i>
+                </button>
+
+                <ul class="list_type">
+                  <li><a href="#">Бизнssssssssssssssssес</a></li>
+                  <li><a href="#">Бизнес</a></li>
+                  <li><a href="#">Бизнес</a></li>
+                  <li><a href="#">Бизнес</a></li>
+                  <li><a href="#">Бизнес</a></li>
+                  <li><a href="#">Бизнес</a></li>
+                  <li><a href="#">Бизнес</a></li>
+                  <li><a href="#">Бизнес</a></li>
+                  <li><a href="#">Бизнес</a></li>
+                  <li><a href="#">Бизнес</a></li>
+                  <li><a href="#">Бизнес</a></li>
+                  <li><a href="#">Бизнес</a></li>
+                  <li><a href="#">Бизнес</a></li>
+                </ul>
+
+                <input
+                  class="form__input form_mail"
+                  type="email"
+                  name="email"
+                  placeholder="Ваш e-mail"
+                />
+                <input
+                  class="form__input form_name"
+                  type="text"
+                  name="name"
+                  placeholder="Ваше имя"
+                />
+              </div>
+              <div class="form__row second_row">
+                <div class="slider_form">
+                  <p class="form__text">
+                    Готовность проекта <span class="form__percentage">75%</span>
+                  </p>
+                  <input
+                    type="range"
+                    class="form__slider"
+                    min="0"
+                    max="100"
+                    step="1"
+                    value="75"
+                  />
+                </div>
+                <button class="form__input file_input">
+                  <i class="fa-regular fa-file-lines"></i>Прикрепить
+                  <input type="file" class="add_file" />
+                </button>
+              </div>
+
+              <div class="sent_wrapper">
+                <button class="section__button form_button">Отправить</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+      <!------------main------------------>
+      <!------------footer------------------>
+      <footer class="footer">
+        <div class="container footer_container">
+          <p class="footer__copyright">
+            © 2024 "businessgrowth.net" Все права защищены
+          </p>
+          <div class="footer__links">
+            <a href="#"
+              ><img src="assets/qiwi.svg" alt="" /><span>Qiwi</span></a
+            >
+            <a href="#"
+              ><img src="assets/yandexMoney.svg" alt="" /><span>Yandex</span></a
+            >
+            <a href="#"
+              ><img src="assets/webmoney.svg" alt="" /><span>WebMoney</span></a
+            >
+          </div>
+          <a class="footer__email" href="mailto:lazerkokolya@gmail.com"
+            ><img src="assets/mail.svg" alt="" /><span>Написать нам</span></a
+          >
+          <a
+            class="footer__vk"
+            href="https://www.linkedin.com/in/mikalai-lazerka/"
+            ><img src="assets/VK.svg" alt="" /><span>Мы в VK</span></a
+          >
+        </div>
+      </footer>
+    </div>
+
+    <!------------footer------------------>
+    <script src="script1.js"></script>
+  </body>
+</html>
